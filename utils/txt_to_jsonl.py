@@ -1,10 +1,10 @@
 import json
 
-input_file = "C:/Users/khans/Documents/APJ-Abdul-Kalam/my_journey.txt"   # one paragraph per line
+input_file = "C:/Users/khans/Documents/APJ-Abdul-Kalam/wings_of_fire_converted.txt"   # one paragraph per line
 output_file = "C:/Users/khans/Documents/APJ-Abdul-Kalam/kalam_cpt.jsonl"
 
 with open(input_file, "r", encoding="utf-8") as f_in, \
-     open(output_file, "w", encoding="utf-8") as f_out:
+     open(output_file, "a", encoding="utf-8") as f_out:
     
     for line in f_in:
         paragraph = line.strip()
