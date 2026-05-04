@@ -7,12 +7,22 @@ __pycache__/
 *.so
 
 /old/*
+/extractor_agent/*
+
+*.jsonl
+*.json
+*.txt
+*.bat
+*.sh
+
 
 /kalam_cpt_lora/*
 /kalam_cpt_lora_v2/*
 /kalam_cpt_output/*
 /kalam_cpt_output_v2/*
 /unsloth_compiled_cache/*
+
+
 
 
 # Distribution / packaging
