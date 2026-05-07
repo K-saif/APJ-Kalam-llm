@@ -81,12 +81,9 @@ python push_to_huggingface.py
 
 ### Q&A Pairs Format (`.json`)
 ```json
-{
-  "context": "Background information",
-  "questions": [
+[
     {"question": "...", "answer": "..."}
-  ]
-}
+]
 ```
 
 ## 🗂️ Repository Structure
