@@ -131,9 +131,32 @@ Key parameters in training scripts:
 - Renowned scientist and author
 - Known as the "Missile Man of India"
 
-## 📄 License
 
-Please refer to individual file headers for licensing information.
+## Future Updates
+
+### Planned Features
+
+- **Multi-language Support**: Expand model to handle content in Hindi, Tamil, Telugu, and other Indian languages
+- **Enhanced Q&A Generation**: Implement advanced techniques for automatic Q&A pair generation from raw text
+- **Web API**: Deploy model as REST API for easy integration with web applications
+- **Evaluation Metrics**: Add comprehensive benchmarking against standard LLM evaluation datasets
+
+### Model Improvements
+
+- **Larger Model Variants**: Train versions using Llama 3, Mistral, and other base models
+- **Context Window Expansion**: Extend max sequence length for longer conversations
+
+### Dataset Enhancements
+
+- **Data Augmentation**: Implement synthetic data generation techniques
+- **Quality Filtering**: Implement advanced filtering for data quality assurance
+
+### Infrastructure & Deployment
+
+- **Docker Support**: Add containerization for easy deployment
+- **Model Quantization**: Implement INT8/FP8 quantization for faster inference
+- **Monitoring & Analytics**: Track model performance metrics and user interactions
+
 
 ## 🤝 Contributing
 
