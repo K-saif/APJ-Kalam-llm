@@ -46,7 +46,7 @@ pip install unsloth torch transformers datasets trl peft
 
 **1. Continued Pre-Training (CPT)**
 ```bash
-python unsloth_train.py
+python CPT_unsloth_train.py
 ```
 Trains the model on raw Kalam-related text to specialize the base model.
 
@@ -90,7 +90,7 @@ python push_to_huggingface.py
 
 ### Core Training Scripts
 
-- **`unsloth_train.py`** - Main CPT (Continued Pre-Training) script using Qwen 2.5 model with LoRA adapters
+- **`CPT_unsloth_train.py`** - Main CPT (Continued Pre-Training) script using Qwen 2.5 model with LoRA adapters
 - **`SFT_fine_tune.py`** - Supervised Fine-Tuning script for chat-format instruction data
 - **`push_to_huggingface.py`** - Utility to push trained models to Hugging Face Hub
 
