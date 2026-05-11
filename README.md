@@ -143,8 +143,10 @@ Key parameters in training scripts:
 
 ### Model Improvements
 
-- **Larger Model Variants**: Train versions using Llama3, Gemma4, and other base models
 - **Context Window Expansion**: Extend max sequence length for longer conversations
+
+**Done**
+- **Larger Model Variants**: Train versions using Llama3, Gemma4, and other base models
 
 ### Dataset Enhancements
 
